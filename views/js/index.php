@@ -23,4 +23,7 @@
 	<li>
 		<?= Html::a('Date', ['lesson', 'name' => 'date']) ?>
 	</li>
+	<li>
+		<?= Html::a('SetTimeout', ['lesson', 'name' => 'settimeout']) ?>
+	</li>
 </ol>

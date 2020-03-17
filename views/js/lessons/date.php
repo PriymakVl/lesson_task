@@ -24,4 +24,7 @@
 	<li>
 		<?= Html::a('Поздороваться в зависимости от времени суток', ['task', 'name' => 'hello_day', 'lesson' => 'date']) ?>
 	</li>
+	<li>
+		<?= Html::a('Часы', ['task', 'name' => 'clock', 'lesson' => 'date']) ?>
+	</li>
 </ol>
