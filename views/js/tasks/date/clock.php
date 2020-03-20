@@ -17,6 +17,7 @@
 		display: inline-block;
 	}
 </style>
+
 <div class="clock-wrp">
 	<div id="clock"></div>
 </div>

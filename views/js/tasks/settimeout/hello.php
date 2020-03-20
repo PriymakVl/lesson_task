@@ -13,6 +13,8 @@ function sayHi(name = '') {
   alert('Hello' + ' ' + name);
 }
 
-setTimeout(sayHi, 3000);
-// setTimeout(sayHi, 3000, 'Maks');
+//sayHi('Dima');
+
+//setTimeout(sayHi, 1000);
+//setTimeout(sayHi, 3000, 'Maks');
 </script>

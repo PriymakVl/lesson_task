@@ -39,8 +39,22 @@ AppAsset::register($this);
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
             // ['label' => 'Главная', 'url' => ['/site/index']],
-            ['label' => 'HTML', 'url' => ['/html/index']],
-            ['label' => 'CSS', 'url' => ['/css/index']],
+                ['label' => 'HTML', 'url' => ['/html/index']],
+                
+                [
+                    'label' => 'CSS',
+                    'items' => [
+                        ['label' => 'Уроки', 'url' => '/css/index'],
+                        '<li class="divider"></li>',
+                        ['label' => 'Легкие шаблоны', 'url' => '/css/templates/easy'],
+                        '<li class="divider"></li>',
+                        ['label' => 'Средние шаблоны', 'url' => '/css/templates/middle'],
+                        '<li class="divider"></li>',
+                        ['label' => 'Тяжелые шаблоны', 'url' => '/css/templates/difficalt'],
+                    ],
+             
+                ],
+
             ['label' => 'Javascript', 'url' => ['/js/index']],
             // ['label' => 'Contact', 'url' => ['/site/contact']],
             // Yii::$app->user->isGuest ? (

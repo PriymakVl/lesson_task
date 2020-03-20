@@ -50,6 +50,7 @@ $config = [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+                'css/templates/<level:\w+>' => 'css/templates',
             ],
         ],
         
