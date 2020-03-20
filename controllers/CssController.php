@@ -21,12 +21,7 @@ class CssController extends \yii\web\Controller
 
     public function actionTemplate($level, $name) 
     {
-    	return $this->render('templates/'.$level.'/'.$name.'/index');
-    }
-
-    public function actionSolution($level, $name) 
-    {
-    	return $this->render('templates/'.$level.'/'.$name.'/solution');
+    	return $this->render('templates/'.$level.'/'.$name);
     }
 
 }

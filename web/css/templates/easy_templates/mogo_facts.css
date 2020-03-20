@@ -1,0 +1,35 @@
+.facts {
+	width: 100%;
+	max-width: 1920px;
+	margin: 0 auto;
+	background: #95e1d3;
+	text-align: center;
+}
+
+.fact {
+	border-right:1px #fff solid;
+	display: inline-block;
+	width: 240px;
+	height: 275px;
+}
+
+.fact:first-child {
+	border-left: 1px #fff solid;
+}
+
+.fact_number {
+	margin: 85px 0 26px;
+	color: #fff;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 72px;
+	font-weight: bold;
+}
+
+.fact_text {
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}

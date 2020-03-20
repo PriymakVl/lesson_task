@@ -1,3 +1,17 @@
+h1 {
+	text-align: center;
+}
+
 ol li {
 	margin-bottom: 10px;
+}
+
+.container-fluid {
+	margin-top: 80px;
+}
+
+.window-task {
+	border: 2px solid green;
+	margin: 20px 0;
+	padding: 30px;
 }
