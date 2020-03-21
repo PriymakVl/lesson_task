@@ -1,0 +1,58 @@
+$font-family-cursive: 'Kaushan Script', cursive;
+$font-family-main: 'Roboto', sans-serif;
+
+.quote {
+	height: 290px;
+	width: 1020px;
+	margin: 50px auto;
+}
+
+.quote__content {
+	margin-left: 230px;
+	padding-top: 75px;
+}
+
+.quote__text {
+	margin-bottom: 15px;
+	font-family: $font-family-main;
+	font-size: 24px;
+	font-style: italic;
+	font-weight: 300;
+	color: #999;
+}
+
+.quote__author {
+	font-family: $font-family-cursive;
+	font-size: 24px;
+	color: #333;
+	position: relative;
+	margin-left: 75px;
+	&:after {
+		content: '';
+		display: block;
+		height: 3px;
+		width: 60px;
+		background: #f38181;
+		position: absolute;
+		top: 18px;
+		left: -70px;
+	}
+}
+
+.quote__img {
+	position: absolute;
+	top: 110px;
+	left: 275px;
+	border: 3px solid #95e1d3;
+	width: 150px;
+	height: 150px;
+	box-sizing: border-box;
+	& img {
+		width: 75px;
+		height: 75px;
+		margin: auto;
+	  	position: absolute;
+	  	top: 0; left: 0; bottom: 0; right: 0;
+	}
+}
+
