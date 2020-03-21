@@ -5,18 +5,13 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  color: #6c7279;
-  background-color: #fff;
-}
-
 /* Wrapper
 ===================*/
 .wrp {
   max-width: 1200px;
   margin: 50px auto;
   padding: 0 15px;
+  background-color: #fff;
 }
 
 /* Features
@@ -52,4 +47,5 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
   line-height: 1.5;
+  color: #6c7279;
 }

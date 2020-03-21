@@ -11,7 +11,7 @@ ol li {
 }
 
 .window-task {
-	border: 2px solid green;
+	background: #A9A9A9;
 	margin: 20px 0;
 	padding: 30px;
 }

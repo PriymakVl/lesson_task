@@ -2,7 +2,7 @@
 	use yii\helpers\Html;
 	$this->title = 'Часы';
  ?>
-<?= Html::a('Задачи урока', ['lesson', 'name' => 'date'], ['class' => 'btn btn-primary']) ?>
+<?= Html::a('Задачи урока', ['lesson', 'name' => 'clock'], ['class' => 'btn btn-primary']) ?>
 
 <style type="text/css">
 	.clock-wrp {
