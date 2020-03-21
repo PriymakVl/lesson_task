@@ -14,4 +14,7 @@
 	<li>
 		<?= Html::a('Mogo Quote', ['template', 'level' => 'easy', 'name' => 'mogo_quote']) ?>
 	</li>
+	<li>
+		<?= Html::a('Active Box Features', ['template', 'level' => 'easy', 'name' => 'active_box_features']) ?>
+	</li>
 </ol>

@@ -1,0 +1,55 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #6c7279;
+  background-color: #fff;
+}
+
+/* Wrapper
+===================*/
+.wrp {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 0 15px;
+}
+
+/* Features
+===================*/
+.features:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.features__item {
+  width: 33.33333%;
+  padding: 0 40px;
+  margin: 25px 0;
+  float: left;
+  text-align: center;
+}
+
+.features__icon {
+  margin-bottom: 25px;
+}
+
+.features__title {
+  margin-bottom: 20px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  color: #2d3033;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.features__text {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
