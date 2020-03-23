@@ -11,14 +11,14 @@
 
 <h1><?= $this->title ?></h1>
 
- <?= Html::a('Скачать задание', ['/tasks/css/templatesactive_box_work_task.rar'], ['class' => 'btn btn-primary']) ?>
+ <?= Html::a('Скачать задание', ['/tasks/css/templates/active_box_work_task.rar'], ['class' => 'btn btn-primary']) ?>
  <?= Html::a('Скачать решение', ['/solutions/css/templates/active_box_work_solution.rar'], ['class' => 'btn btn-primary']) ?>
 
 <div class="window-task">
 	
 <!-- Work -->
 <a href="#" class="work">
-	<?= Html::img('/images/css/templates/active_box_works/work-1.png', ['class' => 'work_photo']) ?>
+	<?= Html::img('/images/css/templates/active_box_works/work-1.jpg', ['class' => 'work_photo']) ?>
 	<div class="work__content">
 		<div class="work__title">Project Name</div>
 		<div class="work__text">User Interface Design</div>

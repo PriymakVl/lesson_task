@@ -12,13 +12,10 @@
 <br>
 <ol>
 	<li>
-		<?= Html::a('HIde', ['lesson', 'name' => 'hide']) ?>
+		<?= Html::a('Event', ['lesson', 'name' => 'event']) ?>
 	</li>
 	<li>
-		<?= Html::a('Background', ['lesson', 'name' => 'background']) ?>
-	</li>
-	<li>
-		<?= Html::a('Text', ['lesson', 'name' => 'text']) ?>
+		<?= Html::a('Prompt', ['lesson', 'name' => 'prompt']) ?>
 	</li>
 	<li>
 		<?= Html::a('Date', ['lesson', 'name' => 'date']) ?>
