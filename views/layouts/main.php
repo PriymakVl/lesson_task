@@ -48,7 +48,7 @@ AppAsset::register($this);
                         '<li class="divider"></li>',
                         ['label' => 'Легкие шаблоны', 'url' => '/css/templates/easy'],
                         '<li class="divider"></li>',
-                        ['label' => 'Средние шаблоны', 'url' => '/css/templates/middle'],
+                        ['label' => 'Шаблоны средней сложности', 'url' => '/css/templates/middle'],
                         '<li class="divider"></li>',
                         ['label' => 'Тяжелые шаблоны', 'url' => '/css/templates/difficalt'],
                     ],
