@@ -1,0 +1,19 @@
+.logo {
+	max-width: 1920px;
+	height: 250px;
+	margin: 50px auto;
+	text-align: center;
+	box-sizing: border-box;
+	background: #fff;
+}
+
+img {
+	height: 130px;
+	width: 130px;
+	margin: 60px 115px 0 0;
+	line-height: 250px;
+}
+
+img:last-child {
+	margin-right: 0;
+}

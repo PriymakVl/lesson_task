@@ -1,0 +1,38 @@
+.map {
+	max-width: 1920px;
+	height: 180px;
+	background: url(/images/css/templates/mogo_map/map-bg.jpg) no-repeat!important;
+	overflow: hidden;
+	background: #fff;
+}
+
+.map__inner {
+	height: 100%;
+	padding-top: 60px;
+	background: #fff;
+	opacity: 85%;
+}
+
+.map__icon {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.map__title {
+	text-align: center;
+	text-transform: uppercase;
+	color: #f38181;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.map__title:after {
+	content: '';
+	display: block;
+	width: 60px;
+	border: 3px solid #f38181;
+	margin: 18px auto 0;
+}
+
+.

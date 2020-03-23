@@ -1,4 +1,4 @@
-<a href="<?=Yii::$app->request->referrer?>" class="btn btn-primary">Задачи урока</a>
+<a href="/js/date" class="btn btn-primary">Задачи урока</a>
 
 <h1>Поздороваться в зависимости от времени суток</h1>
 <p></p>
