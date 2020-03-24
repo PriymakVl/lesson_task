@@ -54,6 +54,6 @@
             <div class="features__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla</div>
         </div>
     </div><!-- /.features -->
-</div><!-- /.container -->
+</div><!-- /.wrp -->
 
 </div>

@@ -5,7 +5,7 @@
 
 	$this->title = 'шаблон "Active Box Work"';
 	$this->params['breadcrumbs'][] = ['label' => 'CSS', 'url' => ['/css']];
-	$this->params['breadcrumbs'][] = ['label' => 'Шаблоны средней сложности', 'url' => ['/css/templates/meddle']];
+	$this->params['breadcrumbs'][] = ['label' => 'Шаблоны средней сложности', 'url' => ['/css/templates/middle']];
 	$this->params['breadcrumbs'][] = $this->title;
  ?>
 

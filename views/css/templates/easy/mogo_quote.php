@@ -5,6 +5,7 @@
 	$this->registerCssFile('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
 
 	$this->title = 'шаблон "Mogo Quote"';
+	$this->params['breadcrumbs'][] = ['label' => 'CSS', 'url' => ['/css']];
 	$this->params['breadcrumbs'][] = ['label' => 'Легкие шаблоны', 'url' => ['/css/templates/easy']];
 	$this->params['breadcrumbs'][] = $this->title;
  ?>
