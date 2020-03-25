@@ -18,6 +18,9 @@
 		<?= Html::a('Prompt', ['lesson', 'name' => 'prompt']) ?>
 	</li>
 	<li>
+		<?= Html::a('Methods', ['lesson', 'name' => 'methods']) ?>
+	</li>
+	<li>
 		<?= Html::a('Date', ['lesson', 'name' => 'date']) ?>
 	</li>
 	<li>
