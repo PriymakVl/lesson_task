@@ -44,7 +44,7 @@ AppAsset::register($this);
                 [
                     'label' => 'CSS',
                     'items' => [
-                        ['label' => 'Уроки', 'url' => '/css/index'],
+                        ['label' => 'Уроки', 'url' => '/css/lessons'],
                         '<li class="divider"></li>',
                         ['label' => 'Легкие шаблоны', 'url' => '/css/templates/easy'],
                         '<li class="divider"></li>',

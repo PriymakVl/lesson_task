@@ -17,4 +17,13 @@
 	<li>
 		<?= Html::a('Active Box Work', ['template', 'level' => 'middle', 'name' => 'active_box_work']) ?>
 	</li>
+	<li>
+		<?= Html::a('Mogo Blog', ['template', 'level' => 'middle', 'name' => 'mogo_blog']) ?>
+	</li>
+	<li>
+		<?= Html::a('Mogo Service', ['template', 'level' => 'middle', 'name' => 'mogo_service']) ?>
+	</li>
+	<li>
+		<?= Html::a('Mogo People', ['template', 'level' => 'middle', 'name' => 'mogo_people']) ?>
+	</li>
 </ol>

@@ -9,9 +9,15 @@ class CssController extends \yii\web\Controller
         return $this->render('index');
     }
 
-    public function test()
+    public function actionLessons()
     {
-    	
+        return $this->render('lessons/index');	
+    }
+
+    public function actionLesson($theme, $section = false)
+    {
+        $section = $section ? $section : 'index';
+        return $this->render('lessons/'.$theme.'/'.$section);
     }
 
     public function actionTemplates($level) 
