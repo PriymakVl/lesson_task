@@ -27,6 +27,9 @@
 		<?= Html::a('Clock', ['lesson', 'name' => 'clock']) ?>
 	</li>
 	<li>
+		<?= Html::a('Class', ['lesson', 'name' => 'class']) ?>
+	</li>
+	<li>
 		<?= Html::a('Slider', ['lesson', 'name' => 'slider']) ?>
 	</li>
 </ol>
