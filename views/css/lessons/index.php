@@ -9,6 +9,9 @@
 
 <ol>
 	<li>
+		<?= Html::a('Fonts', ['lesson', 'theme' => 'fonts']) ?>
+	</li>
+	<li>
 		<?= Html::a('Grid', ['lesson', 'theme' => 'grid']) ?>
 	</li>
 </ol>
