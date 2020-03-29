@@ -35,4 +35,7 @@
 	<li>
 		<?= Html::a('Active Box Team', ['template', 'level' => 'easy', 'name' => 'active_box_team']) ?>
 	</li>
+	<li>
+		<?= Html::a('Active Box Review', ['template', 'level' => 'easy', 'name' => 'active_box_review']) ?>
+	</li>
 </ol>
