@@ -27,6 +27,9 @@
 		<?= Html::a('Mogo Map', ['template', 'level' => 'easy', 'name' => 'mogo_map']) ?>
 	</li>
 	<li>
+		<?= Html::a('Bouncy Team Contact', ['template', 'level' => 'easy', 'name' => 'bouncy_team_contact']) ?>
+	</li>
+	<li>
 		<?= Html::a('Active Box Features', ['template', 'level' => 'easy', 'name' => 'active_box_features']) ?>
 	</li>
 	<li>

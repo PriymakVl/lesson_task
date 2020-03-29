@@ -35,4 +35,7 @@
 	<li>
 		<?= Html::a('Slider', ['lesson', 'name' => 'slider']) ?>
 	</li>
+	<li>
+		<?= Html::a('Array', ['lesson', 'name' => 'array']) ?>
+	</li>
 </ol>

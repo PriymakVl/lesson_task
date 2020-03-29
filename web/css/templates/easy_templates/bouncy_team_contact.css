@@ -1,0 +1,40 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.contact {
+	max-width: 1370px;
+	height: 200px;
+	margin: 50px auto;
+	padding: 55px 0;
+	background: #000 url('/images/css/templates/bouncy_team_contact/bg.jpg') no-repeat center;
+	background-size: cover;
+	text-align: center;
+}
+
+.contact__title {
+	font-size: 20px;
+	margin-bottom: 30px;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contact .btn {
+	display: inline-block;
+	padding: 15px 30px;
+	border: 1px solid #fff;
+	border-radius: 50px;
+	text-decoration: none;
+	text-transform: capitalize;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	transition: opacity .2s linear;
+}
+
+.contact .btn:hover {
+	color: white;
+	opacity: .6;
+}
