@@ -26,4 +26,7 @@
 	<li>
 		<?= Html::a('Mogo People', ['template', 'level' => 'middle', 'name' => 'mogo_people']) ?>
 	</li>
+	<li>
+		<?= Html::a('Mogo Card', ['template', 'level' => 'middle', 'name' => 'mogo_card']) ?>
+	</li>
 </ol>

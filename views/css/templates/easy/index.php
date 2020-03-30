@@ -38,4 +38,7 @@
 	<li>
 		<?= Html::a('Active Box Review', ['template', 'level' => 'easy', 'name' => 'active_box_review']) ?>
 	</li>
+	<li>
+		<?= Html::a('Vegie Offers', ['template', 'level' => 'easy', 'name' => 'vegie_offers']) ?>
+	</li>
 </ol>

@@ -1,0 +1,39 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.offers {
+	max-width: 1900px;
+	height: 340px;
+	margin: 50px auto;
+	padding-top: 60px;
+	text-align: center;	
+	background: #f8cb11 url(/images/css/templates/vegie_offers/bg.jpg) repeat-x;
+}
+
+.offer {
+	display: inline-block;
+	max-width: 370px;
+	margin-right: 190px;
+	text-align: center;
+}
+
+.offer:last-child {
+	margin-right: 0;
+}
+
+.offer__title {
+	margin: 35px 0;
+	font-family: 'Merriweather', serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.offer__text {
+	font-family: 'Merriweather', serif;
+	font-size: 16px;
+}
+
