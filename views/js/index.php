@@ -38,4 +38,7 @@
 	<li>
 		<?= Html::a('Array', ['lesson', 'name' => 'array']) ?>
 	</li>
+	<li>
+		<?= Html::a('Строка (string)', ['lesson', 'name' => 'string']) ?>
+	</li>
 </ol>

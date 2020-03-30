@@ -3,6 +3,7 @@
 	$this->title = 'SetTimeOut hello';
  ?>
 <?= Html::a('Задачи урока', ['lesson', 'name' => 'date'], ['class' => 'btn btn-primary']) ?>
+<?= Html::a('Скачать файл', ['/solutions/js/settimeout/hello.rar'], ['class' => 'btn btn-primary']) ?>
 
 <h1>Показать c задержкой в 3 секунды модальное окно с hello</h1>
 
