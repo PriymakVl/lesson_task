@@ -29,4 +29,7 @@
 	<li>
 		<?= Html::a('Mogo Card', ['template', 'level' => 'middle', 'name' => 'mogo_card']) ?>
 	</li>
+	<li>
+		<?= Html::a('Coding Market Pricing', ['template', 'level' => 'middle', 'name' => 'coding_market_pricing']) ?>
+	</li>
 </ol>
