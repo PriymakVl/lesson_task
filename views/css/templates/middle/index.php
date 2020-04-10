@@ -32,4 +32,10 @@
 	<li>
 		<?= Html::a('Coding Market Pricing', ['template', 'level' => 'middle', 'name' => 'coding_market_pricing']) ?>
 	</li>
+	<li>
+		<?= Html::a('Bouncy Testimonials', ['template', 'level' => 'middle', 'name' => 'bouncy_testimonials']) ?>
+	</li>
+	<li>
+		<?= Html::a('Bouncy Contacts', ['template', 'level' => 'middle', 'name' => 'bouncy_contacts']) ?>
+	</li>
 </ol>

@@ -41,4 +41,7 @@
 	<li>
 		<?= Html::a('Vegie Offers', ['template', 'level' => 'easy', 'name' => 'vegie_offers']) ?>
 	</li>
+	<li>
+		<?= Html::a('Change Background', ['template', 'level' => 'easy', 'name' => 'change_background']) ?>
+	</li>
 </ol>

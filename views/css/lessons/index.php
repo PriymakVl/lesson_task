@@ -27,7 +27,7 @@
 		<?= Html::a('Цвет', ['lesson', 'theme' => 'color']) ?>
 	</li>
 	<li>
-		<?= Html::a('Фон', ['lesson', 'theme' => 'backgroud']) ?>
+		<?= Html::a('Фон', ['lesson', 'theme' => 'background']) ?>
 	</li>
 	<li>
 		<?= Html::a('Рамки', ['lesson', 'theme' => 'borders']) ?>

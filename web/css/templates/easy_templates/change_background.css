@@ -1,0 +1,41 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	width: 300px;
+	height: 300px;
+	margin: 50px auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.wrapper:hover .blue {
+	top: -1000px;
+}
+
+.red {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: red;
+}
+
+.blue {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: blue;
+	transition: top 2s linear;
+}
+
+
+
+
+

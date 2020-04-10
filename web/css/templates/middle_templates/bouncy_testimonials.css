@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.testimonial {
+  max-width: 1370px;
+  margin: 50px auto;
+  padding: 90px;
+  background: #f3f3f3;
+}
+
+.testimonial__header {
+  margin-bottom: 40px;
+}
+.testimonial__header .testimonial__title {
+  color: #333b46;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+}
+.testimonial__header .testimonial__subtitle {
+  max-width: 470px;
+  margin: 40px auto 0;
+  text-align: center;
+  line-height: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #81868e;
+}
+
+.testimonial__content {
+  background: #fff;
+  padding: 55px 0 55px 300px;
+  position: relative;
+}
+.testimonial__content .testimonial__photo {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+.testimonial__content .testimonial__text {
+  padding-right: 70px;
+  margin-bottom: 30px;
+  line-height: 28px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #81868e;
+}
+.testimonial__content .testimonial__author {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #19bd9a;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+.testimonial__content .testimonial__prof {
+  text-transform: uppercase;
+  color: #464646;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+.dots {
+  margin: 35px 0 0 -300px;
+  text-align: center;
+  list-style: none;
+}
+
+.dots li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  border: 1px solid #19bd9a;
+  border-radius: 50%;
+}
+
+.dots li.active {
+  background: #19bd9a;
+}
+
+@media screen and (max-width: 880px) {
+  .testimonial {
+    padding: 10px;
+  }
+
+  .testimonial__header {
+    margin-bottom: 10px;
+  }
+  .testimonial__header .testimonial__subtitle {
+    margin-top: 10px;
+  }
+
+  .testimonial__content {
+    padding: 20px;
+  }
+  .testimonial__content .testimonial__photo {
+    display: none;
+  }
+  .testimonial__content .testimonial__text {
+    padding-right: 0;
+  }
+
+  .dots {
+    margin-left: 0;
+  }
+}

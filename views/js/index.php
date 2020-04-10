@@ -12,6 +12,9 @@
 <br>
 <ol>
 	<li>
+		<a href="https://learn.javascript.ru/intro#chto-mozhet-javascript-v-brauzere" target="_blank">Введение</a>
+	</li>
+	<li>
 		<?= Html::a('Event', ['lesson', 'name' => 'event']) ?>
 	</li>
 	<li>
@@ -40,5 +43,8 @@
 	</li>
 	<li>
 		<?= Html::a('Строка (string)', ['lesson', 'name' => 'string']) ?>
+	</li>
+	<li>
+		<?= Html::a('Цикл (loop)', ['lesson', 'name' => 'loop']) ?>
 	</li>
 </ol>
