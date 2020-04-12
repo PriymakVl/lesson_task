@@ -27,9 +27,13 @@
 		<?= Html::a('Bouncy Team Contact', ['template', 'level' => 'easy', 'name' => 'bouncy_team_contact']) ?>
 		<span class="menu-points">background-img, border-radius</span>
 	</li>
-		<li>
+	<li>
 		<?= Html::a('Vegie Offers', ['template', 'level' => 'easy', 'name' => 'vegie_offers']) ?>
 		<span class="menu-points">background-img, background-repeat</span>
+	</li>
+	<li>
+		<?= Html::a('Social Icons Sprite', ['template', 'level' => 'easy', 'name' => 'social_icons_sprite']) ?>
+		<span class="menu-points">sprite, background-position, transition</span>
 	</li>
 	</li>
 	<li>
