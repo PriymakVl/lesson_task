@@ -23,10 +23,11 @@
 .review__content {
     width: 585px;
     float: right;
+    margin-left: 50px;
 }
 
 .review__text {
-    margin: 120px 0 25px;
+    margin: 100px 0 25px;
 
     font-family: 'Cardo', sans-serif;
     font-style: italic;
@@ -40,9 +41,13 @@
     text-transform: uppercase;
 }
 
+.review__photo {
+    width: 760px;
+    float: left;
+}
+
 .review__photo img {
-	height: 100%;
-	float: left;
+	width: 100%;
 }
 
 .review__dots {
