@@ -11,8 +11,8 @@
 
 <h1><?= $this->title ?></h1>
 
- <?= Html::a('Скачать задание', ['/tasks/css/templates/fontawesome_task.rar'], ['class' => 'btn btn-primary']) ?>
- <?= Html::a('Скачать решение', ['/solutions/css/templates/fontawesome_solution.rar'], ['class' => 'btn btn-primary']) ?>
+ <?= Html::a('Скачать задание', ['/tasks/css/templates/fontawesome_social_icons_task.rar'], ['class' => 'btn btn-primary']) ?>
+ <?= Html::a('Скачать решение', ['/solutions/css/templates/fontawesome_social_icons_solution.rar'], ['class' => 'btn btn-primary']) ?>
 
 <div class="window-task">
 	
