@@ -32,6 +32,10 @@
 		<span class="menu-points">background-img, background-repeat</span>
 	</li>
 	<li>
+		<?= Html::a('Bouncy About', ['template', 'level' => 'easy', 'name' => 'bouncy_about']) ?>
+		<span class="menu-points">background-img, background-position</span>
+	</li>
+	<li>
 		<?= Html::a('Social Icons Sprite', ['template', 'level' => 'easy', 'name' => 'social_icons_sprite']) ?>
 		<span class="menu-points">sprite, background-position, transition</span>
 	</li>
