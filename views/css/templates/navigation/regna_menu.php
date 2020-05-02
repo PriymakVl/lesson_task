@@ -2,7 +2,7 @@
 	use yii\helpers\Html;
 
 	$this->registerCssFile('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-	$this->registerCssFile('/css/templates/difficult_templates/regna_menu.css');
+	$this->registerCssFile('/css/templates/navigation_templates/regna_menu.css');
 
     $this->registerJsFile('https://kit.fontawesome.com/5f29610ead.js', ['crossorigin' => 'anonymous']);
     $this->registerJsFile('@web/js/vendor/superfish.js', ['depends' => 'yii\web\YiiAsset']);
@@ -21,7 +21,7 @@ JS;
 
 
 	$this->title = 'шаблон "Regna Menu"';
-	$this->params['breadcrumbs'][] = ['label' => 'Трудные шаблоны', 'url' => ['/css/templates/difficalt']];
+	$this->params['breadcrumbs'][] = ['label' => 'Навигация', 'url' => ['/css/templates/navigation']];
 	$this->params['breadcrumbs'][] = $this->title;
  ?>
 

@@ -11,7 +11,4 @@
 	<li>
 		<?= Html::a('Mogo Accordion', ['template', 'level' => 'difficult', 'name' => 'mogo_accordion']) ?>
 	</li>
-	<li>
-		<?= Html::a('Regna Menu', ['template', 'level' => 'difficult', 'name' => 'regna_menu']) ?>
-	</li>
 </ol>

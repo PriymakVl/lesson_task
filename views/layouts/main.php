@@ -51,6 +51,8 @@ AppAsset::register($this);
                         ['label' => 'Шаблоны средней сложности', 'url' => '/css/templates/middle'],
                         '<li class="divider"></li>',
                         ['label' => 'Тяжелые шаблоны', 'url' => '/css/templates/difficult'],
+                        '<li class="divider"></li>',
+                        ['label' => 'Навигация', 'url' => '/css/templates/navigation'],
                     ],
              
                 ],

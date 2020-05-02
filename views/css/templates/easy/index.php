@@ -36,6 +36,10 @@
 		<span class="menu-points">background-img, background-position</span>
 	</li>
 	<li>
+		<?= Html::a('Black Faq', ['template', 'level' => 'easy', 'name' => 'black_faq']) ?>
+		<span class="menu-points">google fonts, psevdo class</span>
+	</li>
+	<li>
 		<?= Html::a('Social Icons Sprite', ['template', 'level' => 'easy', 'name' => 'social_icons_sprite']) ?>
 		<span class="menu-points">sprite, background-position, transition</span>
 	</li>
