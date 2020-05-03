@@ -16,6 +16,10 @@
 		<span class="menu-points">margin, padding</span>
 	</li>
 	<li>
+		<?= Html::a('Vegie Offers', ['template', 'level' => 'easy', 'name' => 'vegie_offers']) ?>
+		<span class="menu-points">background-img, background-repeat</span>
+	</li>
+	<li>
 		<?= Html::a('Mogo Facts', ['template', 'level' => 'easy', 'name' => 'mogo_facts']) ?>
 		<span class="menu-points">border, google fonts</span>
 	</li>
@@ -28,12 +32,12 @@
 		<span class="menu-points">background-img, border-radius</span>
 	</li>
 	<li>
-		<?= Html::a('Vegie Offers', ['template', 'level' => 'easy', 'name' => 'vegie_offers']) ?>
-		<span class="menu-points">background-img, background-repeat</span>
-	</li>
-	<li>
 		<?= Html::a('Bouncy About', ['template', 'level' => 'easy', 'name' => 'bouncy_about']) ?>
 		<span class="menu-points">background-img, background-position</span>
+	</li>
+	<li>
+		<?= Html::a('Bouncy Fold', ['template', 'level' => 'easy', 'name' => 'bouncy_fold']) ?>
+		<span class="menu-points">background-img, background-size, float</span>
 	</li>
 	<li>
 		<?= Html::a('Black Faq', ['template', 'level' => 'easy', 'name' => 'black_faq']) ?>
