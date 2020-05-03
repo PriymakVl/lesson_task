@@ -40,6 +40,10 @@
 		<span class="menu-points">background-img, background-size, float</span>
 	</li>
 	<li>
+		<?= Html::a('Bouncy Team Quote', ['template', 'level' => 'easy', 'name' => 'bouncy_team_quote']) ?>
+		<span class="menu-points">background-img, position absolute</span>
+	</li>
+	<li>
 		<?= Html::a('Black Faq', ['template', 'level' => 'easy', 'name' => 'black_faq']) ?>
 		<span class="menu-points">google fonts, psevdo class</span>
 	</li>
