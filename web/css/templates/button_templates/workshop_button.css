@@ -1,0 +1,46 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.wrp {
+	margin-top: 100px;
+	text-align: center;
+}
+
+.btn-tickets {
+	display: inline-block;
+	position: relative;
+	padding: 20px 30px;
+	background: #3f4046;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.btn-tickets:before {
+	content: '';
+	display: block;
+	position: absolute; top: 0; left: 0; z-index: 1;
+	height: 100%; width: 0;
+	background: linear-gradient(to right, #c70039, #ff5733 70%);
+	transition: .3s all ease-in-out;
+}
+
+.btn-tickets:hover {
+	text-decoration: none;
+}
+
+.btn-tickets:hover:before {
+	width: 100%;
+}
+
+.btn-tickets > span {
+	position: relative;
+	z-index: 2;
+}
